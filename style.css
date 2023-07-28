@@ -1,0 +1,140 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+
+.header{
+    background-color: rgb(221, 218, 218);
+    position: sticky;
+    top: 0px;
+}
+.header-container{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    font-size:xx-large;
+    font-weight: 600;
+    color: rgb(255, 140, 0);
+}
+.link a{
+    font-size: larger;
+    color: blue;
+}
+.main-img img{
+    width: 100%;
+}
+.categories{
+    height: 400px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.available-heading,.cat-heading{
+    font-weight: 800;
+    text-align: center;
+    margin: 30px;
+}
+.cat-list-item{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.cat-list{
+    display: flex;
+    justify-content: space-around;
+}
+.available-state{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.oil-and-ghee{
+    background-image: url(https://d3hoz38eq91v8w.cloudfront.net/ds-programs/webmobile/product1.png); 
+    background-size: cover;
+}
+.snack-and-beverages{
+    background-image: url(https://d3hoz38eq91v8w.cloudfront.net/ds-programs/webmobile/product2.png);
+     background-size: cover;
+}
+.cleaning{
+    background-image: url(https://d3hoz38eq91v8w.cloudfront.net/ds-programs/webmobile/product5.png);
+     background-size:cover;
+}
+.cat-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    font-weight:900;
+}
+hr{
+    width:50%;
+    margin:0 auto 40px auto;
+}
+.service-list{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-weight: 900;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.download-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+.social-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.link-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.social-text{
+    font-weight: 900;
+}
+.footer{
+    background-color: rgb(7, 7, 7);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.copyright{
+    color: white;
+}
